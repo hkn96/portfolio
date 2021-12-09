@@ -1,7 +1,7 @@
 import React from 'react'
 import home1 from '../img/home1.png'
 
-const About = () => {
+const AboutSection = () => {
   return (
     <div>
       <div className='description'>
@@ -31,4 +31,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutSection

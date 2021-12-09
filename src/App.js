@@ -1,9 +1,9 @@
-import About from './components/About'
+import AboutUs from './pages/AboutUs'
 
 function App() {
   return (
     <div className='App'>
-      <About />
+      <AboutUs />
     </div>
   )
 }
