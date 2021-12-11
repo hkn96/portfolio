@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
     background: transparent;
     color: white;
     transition: all 0.5s ease;
+    font-family: 'Inter', sans-serif;
     &:hover {
       background: #23d997;
       color: white;
@@ -39,6 +40,7 @@ const GlobalStyle = createGlobalStyle`
     font-weight: bold;
     color: #23d997;
   }
+
 `
 
 export default GlobalStyle
