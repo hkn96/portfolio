@@ -25,7 +25,7 @@ const OurWork = () => {
           <img src={theracer} alt='theracer' />
         </Link>
       </Movie>
-      <Movie>
+      <Movie></Movie>
         <h2>Good Times</h2>
         <div className='line'></div>
         <Link to>
