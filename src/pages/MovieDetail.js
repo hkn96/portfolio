@@ -1,13 +1,10 @@
 import { useState, useEffect } from 'react'
 import styled from 'styled-components'
-// import { useHistory } from 'react-router-dom'
-// import { useNavigate } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 import { MovieState } from '../MovieState'
 
 const MovieDetail = () => {
   const url = useLocation()
-
   const [movies, setMovies] = useState(MovieState)
   const [movie, setMovie] = useState(null)
 
