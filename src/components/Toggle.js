@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 const Toggle = ({ children, title }) => {
-  const [toggle, setToggle] = useState(true)
+  const [toggle, setToggle] = useState(false)
   return (
     <motion.div layout className='question' onClick={() => setToggle(!toggle)}>
       <div style={{ display: 'inline-block' }}>
