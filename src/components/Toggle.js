@@ -7,9 +7,13 @@ const Toggle = ({ children, title }) => {
   const [toggle, setToggle] = useState(false)
   return (
     <motion.div layout className='question' onClick={() => setToggle(!toggle)}>
-      <div style={{ display: 'inline-block' }}>
+      <div style={{ display: 'flex' }}>
         <motion.h4 layout>{title}</motion.h4>
-        <FontAwesomeIcon icon={faChevronDown} size='2x' />
+        <FontAwesomeIcon
+          icon={faChevronDown}
+          size='2x'
+          style={{ marginLeft: '10px' }}
+        />
       </div>
       {toggle ? children : ''}
       <div className='faq-line'></div>
